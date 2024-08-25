@@ -1,0 +1,72 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    text-transform: capitalize;
+
+    .title {
+        font-size: 12rem;
+        font-weight: 800;
+        margin-left: 5%;
+        margin-bottom: 0px;
+    
+        div {
+            color: rgb(46, 46, 46);
+            
+        }
+    }
+
+    .subTitleWrapper {
+        font-size: 6rem;
+        font-weight: 800;
+        margin-left: calc(5% - 20px);
+        margin-top: 40px;
+        height: 116px;
+        overflow: hidden;
+        background: white;
+        color: black;
+        width: fit-content;
+        border-radius: 20px;
+        border: 5px solid #fff;
+        outline: 5px solid #fff;
+
+        // &:hover .subTitleWrapperAnim {
+
+        // }
+
+        .subTitleWrapperAnim {
+            animation: subTitleAnim 5s infinite linear;
+        }
+
+        .blur {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            box-shadow: inset 0px 0px 10px 20px #fff;
+            border: 5px solid white;
+            margin-top: 0px;
+            height: 116px;
+        }
+    }
+}
+
+@keyframes subTitleAnim {
+    0% {
+        margin-top: 0px;
+    }
+    20% {
+        margin-top: -116px;        
+    }
+    40% {
+        margin-top: calc(-116px * 2);        
+    }
+    60% {
+        margin-top: calc(-116px * 3);        
+    }
+    80% {
+        margin-top: calc(-116px * 4);        
+    }
+    100% {
+        margin-top: calc(-116px * 5);
+    }
+}
+
