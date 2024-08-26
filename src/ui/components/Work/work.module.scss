@@ -1,0 +1,30 @@
+.wrapper {
+    width: 95vw;
+    margin-left: 2.5vw;
+    height: 100vh;
+    text-transform: capitalize;
+    user-select: none;
+
+    .title {
+        color: white;
+        font-size: 12vw;
+        margin-bottom: 20px;
+        text-align: right;
+        margin-bottom: 100px;
+    }
+
+}
+
+.experience {
+    display: flex;
+
+    div {
+        color: white;
+        margin-left: 50px;
+
+        h3 {
+            font-size: 40px;
+            margin-top: 0px;
+        }
+    }
+}
