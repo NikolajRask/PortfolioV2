@@ -4,7 +4,7 @@ import styles from './footer.module.scss'
 const Footer = () => {
   return (
     <div className={styles.footer}>
-        <span>Build by Nikolaj with ❤️</span>
+        <span>Build by Nikolaj Rask with ❤️</span>
     </div>
   )
 }
