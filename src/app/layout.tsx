@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import './global.css'
+import './globals.css'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{overflowX: 'hidden', background: 'black'}}>{children}</body>
+      <head>
+        <meta name="viewport" content="viewport-fit=cover" />
+      </head>
+      <body className={inter.className} style={{overflowX: 'hidden', margin: 0}}>{children}</body>
     </html>
   );
 }

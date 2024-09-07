@@ -1,0 +1,94 @@
+.hero {
+
+    width: 100vw;
+    background: rgb(2, 6, 64);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    padding-block: 50px;
+
+    .profilePic {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+        background-image: url('/profile.jpeg');
+        background-size: cover;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .profileInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+
+        .title {
+            text-align: center;
+            font-size: 23px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    
+        .bio {
+            font-size: 16px;
+            color: rgb(213, 213, 213);
+            align-self: center;
+            justify-self: center;
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            img {
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .socials {
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        color: white;
+
+        .social {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 5px;
+            border-radius: 5px;
+
+            &:hover {
+                background: rgba(0,0,0,0.1);
+                cursor: pointer;
+            }
+
+            .socialsLogo {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: black;
+            }
+
+            span {
+                font-size: 16px;
+                font-weight: 500;
+                margin: 0px;
+                padding: 0px;
+                height: fit-content;
+
+                @media (max-width: 500px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
