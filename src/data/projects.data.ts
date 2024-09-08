@@ -20,7 +20,7 @@ const projects:ProjectType[] = [
         url: "https://nkjrask.com",
         domainExtension: "com",
         includeDomainExtension: true,
-        imageSrc: './spaak.png',
+        imageSrc: './nkjrask.png',
         description: "This is the website that you are currently on right now. This is my portfolio website where I showcase my porjects and where I make it easy to connect with me on different platforms."
     }
 ]
