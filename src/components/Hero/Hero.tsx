@@ -30,7 +30,7 @@ const Hero = () => {
                 <span>Github</span>
             </div>
             <div className={styles.social} onClick={() => {
-                window.open('https://www.linkedin.com/in/nikolaj-rask-a1350622b/')
+                window.open('https://www.linkedin.com/in/nikolaj-rask-a1350622b/');
             }}>
                 <LinkedIn />
                 <span>LinkedIn</span>
