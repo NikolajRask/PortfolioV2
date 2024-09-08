@@ -36,7 +36,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className={styles.information}>
-                                <h2 className={styles.title}>{project.name}</h2>
+                                <h2 className={styles.title}>{project.includeDomainExtension ? `${project.name}.${project.domainExtension}` : project.name}</h2>
                                 <div className={styles.description}>
                                     {project.description}
                                 </div>

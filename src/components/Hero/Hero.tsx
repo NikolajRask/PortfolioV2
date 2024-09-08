@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './hero.module.scss'
 import { Github } from '@/svg/Github'
+import LinkedIn from '@/svg/LinkedIn'
+import Medium from '@/svg/Medium'
 
 
 
@@ -23,6 +25,14 @@ const Hero = () => {
             <div className={styles.social}>
                 <Github />
                 <span>Github</span>
+            </div>
+            <div className={styles.social}>
+                <LinkedIn />
+                <span>LinkedIn</span>
+            </div>
+            <div className={styles.social}>
+                <Medium />
+                <span>Medium</span>
             </div>
         </div>
     </div>
