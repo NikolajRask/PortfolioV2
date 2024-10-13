@@ -12,7 +12,7 @@ const Hero = () => {
     <div className={styles.hero}>
         <div className={styles.profilePic}/>
         <div className={styles.profileInfo}>
-            <h3 className={styles.title}>Hey, I'm Nikolaj Rask</h3>
+            <h3 className={styles.title}>{"Hey, I'm Nikolaj Rask"}</h3>
             <div className={styles.bio}>
                 <span>
                     20 year old Full Stack Developer, Denmark 
