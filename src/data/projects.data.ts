@@ -21,7 +21,7 @@ const projects:ProjectType[] = [
         domainExtension: "com",
         includeDomainExtension: true,
         imageSrc: './nkjrask.png',
-        description: "This is the website that you are currently on right now. This is my portfolio website where I showcase my porjects and where I make it easy to connect with me on different platforms."
+        description: "This is the website that you are currently on right now. This is my portfolio website where I showcase my projects and where I make it easy to connect with me on different platforms."
     }
 ]
 
