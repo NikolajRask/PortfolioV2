@@ -15,7 +15,7 @@ const Projects = () => {
             {
                 projects.map((project, index) => {
                     return (
-                        <div className={styles.project} key={index}>
+                        <div key={index} className={styles.project}>
                             <div 
                                 className={styles.image}
                                 style={{
