@@ -16,6 +16,14 @@ const projects:ProjectType[] = [
         description: "I have been working on the Spaak team helping develop the software Hamilton for lobbyists."
     },
     {
+        name: "NoteLed",
+        url: "https://github.com/NikolajRask/note-app",
+        domainExtension: "com",
+        includeDomainExtension: false,
+        imageSrc: './noteled.png',
+        description: "NoteLed is a work in progress open-source note taking app. This is a desktop app for taking notes that i sometimes update. NoteLed is created with ElectronJS and JavaScript."
+    },
+    {
         name: "nkjrask",
         url: "https://nkjrask.com",
         domainExtension: "com",
