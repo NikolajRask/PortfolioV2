@@ -12,7 +12,7 @@ const projects:ProjectType[] = [
         name: "Spaak",
         url: "https://spaak.ai",
         domainExtension: "ai",
-        imageSrc: './spaak.png',
+        imageSrc: './spaak2.png',
         description: "I have been working on the Spaak team helping develop the software Hamilton for lobbyists."
     },
     {
